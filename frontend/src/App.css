@@ -1,0 +1,44 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.parking-lot {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.slot {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #000;
+  cursor: pointer;
+  position: relative;
+}
+
+.occupied {
+  background-color: red;
+}
+
+.empty {
+  background-color: green;
+}
+
+.slot-info {
+  text-align: center;
+  color: #ffffff;
+}
+
+.slot-number {
+  display: block;
+  font-weight: bold;
+}
+
+.slot-status {
+  display: block;
+}
